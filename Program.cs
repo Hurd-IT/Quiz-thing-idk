@@ -8,6 +8,25 @@ namespace Quiz
             Console.WriteLine("Our Quiz");
             Declan();
             Nigel();
+            Chase();
+        }
+
+
+
+        public static void Chase()
+        {
+            string answer;
+            Console.WriteLine("What colour is the sky?");
+            answer = Console.ReadLine();
+            if (answer == "blue")
+            {
+                Console.WriteLine("You are Correct");
+            }
+            else
+            {
+                Console.WriteLine("You are Wrong");
+            }
+            Console.ReadLine();
         }
             public static void Jacob()
             {
@@ -69,4 +88,4 @@ namespace Quiz
 
         }
     }
-}
+
