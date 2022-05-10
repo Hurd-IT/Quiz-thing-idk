@@ -9,6 +9,7 @@ namespace Quiz
             Declan();
             Nigel();
             Chase();
+            Jacob();
         }
 
 
@@ -35,7 +36,7 @@ namespace Quiz
                 Console.Write("How many Calories in a gram of uranium? ");
                 temp = Console.ReadLine();
                 answer = Convert.ToInt32(temp);
-                correctanswer = 16000000;
+                correctanswer = 18000000;
                 Console.WriteLine($"the answer was {correctanswer}. You guessed {answer}");
             }
             public static void Declan()
