@@ -27,8 +27,15 @@ namespace Quiz
                 temp = Console.ReadLine();
                 ans = Convert.ToInt32(temp);
                 correctans = 366;
-            Console.WriteLine($"the answer was {correctans}. You guessed {ans}");
-             }
+            if (ans == correctans)
+            {
+                Console.WriteLine("You are correct.");
+            }
+            else
+            {
+                Console.WriteLine($"The answer you gave was incorrect. The correct answer is {correctans}");
+            }
+        }
 
             public static void Nigel()
             {
@@ -42,19 +49,16 @@ namespace Quiz
 
                 switch (num)
                 {
-                    case:
-                        1
+                    case 1:
                 Console.WriteLine("Correct");
                         break;
-                    case:
-                        2
+                    case 2:
                 Console.WriteLine("Wrong");
                         break;
-                    case:
-                        3
+                    case 3:
                 Console.WriteLine("Wrong");
                         break;
-                    case: 4
+                    case 4: 
                         Console.WriteLine("Wrong");
                         break;
                     default:
