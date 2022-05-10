@@ -14,10 +14,47 @@ namespace Quiz
             correctans = 366;
             Console.WriteLine($"the answer was {correctans}. You guessed {ans}")
         }
+
+        public static void Nigel()
+        {
+            Console.WriteLine("What color is grass");
+            Console.WriteLine("1: Green");
+            Console.WriteLine("2: Yellow");
+            Console.WriteLine("3: Blue");
+            Console.WriteLine("4: Black");
+            string temp = Console.ReadLine()
+            int num = int.Parse(temp);
+
+            switch (num)
+            {
+                case:
+                    1
+            Console.WriteLine("Correct");
+                    break;
+                case:
+                    2
+            Console.WriteLine("Wrong");
+                    break;
+                case:
+                    3
+            Console.WriteLine("Wrong");
+                    break;
+                case:
+                    4
+            Console.WriteLine("Wrong");
+                    break;
+                default
+                    }
+
+
+
+
         public static void Main()
         {
             Console.WriteLine("Our Quiz");
             Declan();
+            Nigel();
+
         }
     }
 }
